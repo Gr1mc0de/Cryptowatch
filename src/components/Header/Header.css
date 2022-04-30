@@ -1,0 +1,118 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 9px;
+}
+
+.DarkHeader {
+    background-color: #000;
+}
+
+.mainHeading,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.Header a,
+.Header p {
+    color: #000;
+    text-decoration: none;
+}
+
+.Header a:hover,
+.Header p:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.DarkHeader a,
+.DarkHeader p,
+.DarkHeader .moonSun {
+    color: #fff;
+}
+
+.mainHeading img {
+    height: 25px;
+    margin-right: 5px;
+}
+
+.DarkHeader img {
+    filter: invert(100%);
+}
+
+.mainHeading h1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+}
+
+nav a,
+nav p {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.Login,
+.currencySelektor {
+    position: absolute;
+    top: 37px;
+    right: 0px;
+    display: none;
+    flex-direction: column;
+    padding: 9px 9px;
+    background-color: #fff;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.currencySelektor {
+    width: 290px;
+    height: 295px;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.DarkLogin,
+.DarkCurrency {
+    background-color: #000;
+}
+
+.loginDisplay,
+.currencyDisplay {
+    display: flex;
+}
+
+.Login input {
+    padding: 4.5px 5px;
+    margin-bottom: 5px;
+    border: solid 1px #989898;
+    border-radius: 5px;
+}
+
+.Login button {
+    padding: 2px 1px;
+    background-color: #000;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium';
+    color: #fff;
+}
+
+.DarkLogin button {
+    background-color: #999;
+    color: #000;
+}
+
+.Login button:hover {
+    background-color: #222;
+    cursor:pointer;
+}
+
+.DarkLogin button:hover {
+    background-color: #999;
+    filter: brightness(121%);
+}
+
+.moonSun:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.DarkFooter {
+    background-color: black;
+    color: #fff;
+}
+
+.Footer a {
+    color: #000;
+}
+
+.DarkFooter a {
+    color: #fff;
+}
+
+.Footer a:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,56 @@
+.darkMarketTrends {
+    background-color: #212121;
+}
+
+.MarketTrends table {
+    margin-bottom: 40px;
+}
+
+.MarketTrends th,
+.MarketTrends td {
+    width: 20%;
+}
+
+.pageNav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    font-family: 'Franklin Gothic Medium';
+    list-style: none;
+}
+
+.pageNav a {
+    padding: 5px 5px;
+    margin: auto 5px auto 5px;
+    background-color: #dcdcdc;
+    border: solid 1px #cdcdcd;
+    border-radius: 5px;
+}
+
+.darkPageNav a {
+    background-color: #131313;
+    border: solid 1px #000;
+    color: #fff;
+}
+
+.pageNav a:hover {
+    background-color: #cdcdcd;
+    cursor: pointer;
+}
+
+.darkPageNav a:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.active a {
+    background-color: #cdcdcd;
+}
+
+.activeDark a {
+    background-color: #000;
+}
+
+.navDisabled {
+    display: none;
+}

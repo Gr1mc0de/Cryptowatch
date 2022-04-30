@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url(components/Header/Header.css);
+@import url(components/Home/Home.css);
+@import url(components/MarketTrends/MarketTrends.css);
+@import url(components/News/News.css);
+@import url(components/Register/Register.css);
+@import url(components/Footer/Footer.css);

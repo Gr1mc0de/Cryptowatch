@@ -1,0 +1,128 @@
+.Register {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "form sidebar";
+}
+
+.RegistrationForm {
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #f6f6f6;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.darkRegistrationForm {
+    background-color: #212121;
+    color: #fff;
+}
+
+.RegistrationForm img {
+    height: 150px;
+    margin-top: 70px;
+    opacity: 85%;
+}
+
+.darkRegistrationForm img {
+    filter: invert(100%);
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.userInfo div {
+    margin-bottom: 20px;
+}
+
+.userInfo h2 {
+    margin-bottom: 5px;
+}
+
+.username,
+.password {
+    width: 97.5%;
+    height: 24px;
+    padding: 1px 5px;
+    border: solid 1px #989898;
+    border-radius: 5px;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+.resetRegister {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 270px;
+}
+
+.resetRegister button {
+    width: 49%;
+    padding: 2px 1px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.reset {
+    background-color: #fff;
+    border: solid 1px #000;
+    color: #000;
+}
+
+.reset:hover {
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+
+.register {
+    background-color: #000;
+    color: #fff;
+}
+
+.register:hover {
+    background-color: #222;
+    cursor: pointer;
+}
+
+.darkRegistrationForm .register {
+    background-color: #999;
+    border: none;
+    color: #000;
+}
+
+.darkRegistrationForm .register:hover {
+    filter: brightness(121%);
+}
+
+aside {
+    grid-area: sidebar;
+    background: url('../i/register.png') 50%;
+    background-size: cover;
+}
+
+aside h1 {
+    width: 455px;
+    margin-top: 45px;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 50px;
+    font-style: italic;
+    color: #fff;
+    text-shadow: #cdcdcd 0.5px 0.5px;
+}
+
+.darkAside h1 {
+    color: #000;
+    text-shadow: none;
+}
